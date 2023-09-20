@@ -8,7 +8,7 @@ function skipMultiplesOf5($num)
         if ($i % 5 == 0) {
             continue;
         } else {
-            echo "$i \n";
+            echo $i . " ";
         }
     }
 }
